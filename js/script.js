@@ -19,7 +19,7 @@ img.forEach(function(item){
 
 })
 btn.onclick = function(){
-    show .innerHTML = totalprice
+    show .innerHTML ="LE: "+ totalprice+" EG"
     show.style.padding = "5px"
     show.style.border="2px solid black"
 }
