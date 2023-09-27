@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(236, 253, 252);
+}
+#title{
+    text-align: center;
+    text-shadow:10px 10px 8px rgb(100, 153, 233) ;
+
+}
+#home-title{
+    width: 500px;
+    height: 50px;
+    border: 0px solid black;
+    margin: 0px auto 80px;
+}
+#hr1{
+    border: 0px solid black;
+    width: 300px;
+    height: 4px;
+    background-color: brown;
+    margin: 40px auto;
+    transition: .5s;
+}
+#home-title:hover  #hr1{
+    width: 500px;
+}
+#row{
+    display: grid;
+    grid-template-columns: repeat( 8 , 1fr );
+    row-gap: 40px;
+}
+#col{
+    text-align: center;
+    min-width: 50px;
+    max-width: 230px;
+    max-height: 300px;
+    min-height: 240px;
+    box-shadow:20px 20px 100px 10px rgb(100, 153, 233) ;
+}
+#card{
+    cursor: pointer;
+}
+#col:hover #card{
+    transform:scale(1.15 , 1.25);
+    transition: .5s;
+}
+#h2-content{
+    font-size: 20px;
+    text-align: center;
+}
+#btn1{
+    background-color: rgb(156, 199, 199);
+    font-size:20px ;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+#content , #total-price{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 40px auto 20px;
+    border-radius: 5px;
+    background-color: rgb(209, 238, 238);
+
+    font-size: 20px;
+    
+
+}
