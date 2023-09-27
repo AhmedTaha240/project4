@@ -38,7 +38,7 @@ background-color: rgb(236, 253, 252);
     min-width: 50px;
     max-width: 230px;
     max-height: 300px;
-    min-height: 240px;
+    min-height: 260px;
     box-shadow:20px 20px 100px 10px rgb(100, 153, 233) ;
 }
 #card{
